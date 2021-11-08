@@ -8,41 +8,54 @@
     <title>Inicio</title>
 </head>
 <body>
-    <div>
-        <nav class="navbar is-info is-fixed-top" role="navigation" aria-label="main navigation">
-            <div class="navbar-item">
-              <a class="navbar-item" href="./index.html">
-                <p class="title">
-                    Bienvenido
-                </p>
-              </a>
-
-              <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-              </a>
-            </div>
-          
-            <div id="navbarBasicExample" class="navbar-menu">
-              <div class="navbar-start">
-                <a href="#" class="navbar-item">
-                  Inicio
-                </a>
-          
-                <a href="./servicios.html" class="navbar-item">
-                  Servicios
-                </a>
-
-                <a href="#" class="navbar-item">
-                    Contacto
-                </a>
-          
-              </div>
-            </div>
-          </nav>
+  <!-- Panel de navegacion -->
+  <nav class="navbar is-fixed-top is-info">
+    <!-- nombre  -->
+    <div class="navbar-brand">
+      <a href="./index.html" class="navbar-item">
+        <span>Dentistas</span>
+      </a>
+      <a class="navbar-burger" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
     </div>
 
+    <div class="navbar-menu" id="navbar-links">
+      <div class="navbar-end">
+        <a href="./index.html" class="navbar-item">
+          inicio
+        </a>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+             Servicios
+          </a>
+  
+          <div class="navbar-dropdown">
+            <a href="./data/dentistica.html" class="navbar-item">
+              Dentistica
+            </a>
+            <a href="#" class="navbar-item">
+              Endodontología ( Endodoncia)
+            </a>
+            <a href="#" class="navbar-item">
+              Cirugía Oral (Cirugía Bucal)
+            </a>
+            <a href="#" class="navbar-item">
+              Emergencias Médicas en Odontología ( Emergencias Medico-Dentales)
+            </a>
+            <a href="#" class="navbar-item">
+              Farmacoterapia en Odontología (Farmacología)
+            </a>
+      </div>
+    </div>
+    <a href="#" class="navbar-item">Preguntas y respuestas</a>
+    <a href="./data/contacto.html" class="navbar-item">Contacto</a>
+  </nav>
+  <br/>
+  <br/>
     <!-- Hero -->
     <section class="hero is-medium is-link">
       <div class="hero-body">
@@ -98,6 +111,6 @@
         </div>
       </footer>
 
-  <script src="/js/index.js"></script>
+<script src="./js/index.js"></script>
 </body>
 </html>
