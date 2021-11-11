@@ -9,3 +9,13 @@ body{
 .odontologo{
     width: 70%;
 }
+
+.hero{
+    background-image: url("https://cdn.pixabay.com/photo/2017/07/23/10/44/dentist-2530990_960_720.jpg");
+    background-size: cover;
+}
+
+.hero p{
+    color: black;
+    text-shadow: 1px 1px #fff;
+}
